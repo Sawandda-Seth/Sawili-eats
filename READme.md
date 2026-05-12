@@ -59,27 +59,11 @@ The system bridges the gap between traditional business management and modern te
 
 
 ## Project Structure##
-text
-SAWILI-EATS/
-│
-├── frontend/                # React application
-│   ├── src/
-│   ├── components/
-│   └── pages/
-│
-├── backend/                # Django application
-│   ├── apps/
-│   ├── models/
-│   ├── views/
-│   └── api/
-│
-├── docker/                 # Docker configurations
-├── docs/                   # Documentation
-├── .env.example            # Environment variables template
-├── requirements.txt
-├── package.json
-└── README.md
-``
+`` text
+C:.
+└───assets
+    └───images
+
 
 
 ## Installarion & Setup
