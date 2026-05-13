@@ -39,23 +39,6 @@ The system bridges the gap between traditional business management and modern te
 - Activity logs
 10:35 AM
  
-## Tech Stack
-
-**Fronted**
-- React.js
-- Tailwindcss
-- Axios
-- Redux
-
-**Backend**
-- Django
-- django Rest Framework (DRF)
-- PostgreSQL
-
-**DevOps $ Deployment**
-- Docker
-- Github Actions (CI/CD)
-- CluodHosting (AWS/ Render / Azure )
 
 
 ## Project Structure##
@@ -75,14 +58,7 @@ cd SAWILI-EATS
 
 Open index.html in any modern browser and view your site
 
-Prerequisites
 
-* Node.js (v16+)
-* Python (v3.10+)
-* PostgreSQL
-* Docker (optional)
-
-Backend Setup (Django)
 
 **Bash**
 
@@ -91,89 +67,9 @@ git clone [https://github.com/Sawanda-Seth/SAWILI-EATS.git](https://github.com/S
 
 cd SAWILI-EATS/backend
 
-# Create virtual environment
-python -m venv env
-source env/bin/activate   # Windows: env\\Scripts\\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure environment variables
-cp .env.example .env
-
-# Run migrations
-python manage.py migrate
-
-# Start server
-python manage.py runserver
-
-
-Frontend Setup (React)
-
-**Bash**
-
-cd ../frontend
-
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-```
-
-## API Endpoints
-
-| **Methods** | **Endpoints** | **Description** |
-| -------------- | ------------ | ------------- |
-| POST            | `api/auth/register/` | Register user|
-| POST            | `api/auth/login/` | Login user|
-| GET            | `api/orders/` | List Orders|      
-| POST            | `api/orders/` | Create Order|      
-| GET            | `api/orders/` | View Inventory |  
 
 ## Environment Variables
 
-Create a .env file in both frontend and backend directories:
-
-Backend
-
-**Plaintext**
-
-SECRET_KEY=your_secret_key
-DEBUG=True
-DB_NAME=jua_kali_db
-DB_USER=postgres
-DB_PASSWORD=your_password
-MPESA_CONSUMER_KEY=your_key
-MPESA_CONSUMER_SECRET=your_secret
-
-
-## Frontend
-
-**Plaintext**
-
-REACT_APP_API_URL=http://localhost:8000/api
-
-
-## Testing
-
-**Bash**
-
-# Backend tests
-python manage.py test
-
-# Frontend tests
-npm test
-
-
-## Deployment
-
-1. **Build frontend:** npm run build
-2. **Use Docker for full-stack deployment:** docker-compose up --build
-3. **Deploy on:**
-   * AWS (EC2 / S3)
-   * Azure
-   * Render / Vercel (frontend)
 
 Contributing
 
@@ -195,4 +91,4 @@ Contributions are welcome!
 
 # Vision
 
-To digitize and empower the Jua Kali sector by providing accessible, scalable, and efficient software solutions that enhance productivity and market reach.
+To digitize service delivery in the catering sector for them to produce and deliver more services in time and to create more profits.
